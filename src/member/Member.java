@@ -17,7 +17,7 @@ public class Member {
 	public Member(String  id,int memberpoints) {this.setID(id);this.setMemberPoints(memberpoints);} 
 	public Member(String  id,String  pwd,String  name,String  tel,String address,int memberpoints) {
 		this.setID(id);
-		this.setPwd(Pwd);
+		this.setPwd(pwd);
 		this.setName(name);
 		this.setTel(tel);
 		this.setAddress(address);
@@ -25,29 +25,6 @@ public class Member {
 	} 
 	
 	
-//	public String getID() {return ID;}
-//	public void setID(String iD) {ID = iD;}
-//	
-//
-//	public String getID_Pwd() {return ID + Pwd;}
-//	public void setID_Pwd(String iD, String pwd) {ID = iD;Pwd = pwd;}
-//	
-//
-//	public String getID_MemberPoints() {return Name + MemberPoints;}
-//	public void setID_MemberPoints(String iD, int memberPoints) {ID = iD;MemberPoints = memberPoints;}
-//	
-//
-//	public String getID_Name_Pwd_Name_Tel_Address_MemberPoints() {return ID + Name + Pwd + Name + Tel + Address + MemberPoints;}
-//	public void setID_Name_Pwd_Name_Tel_Address_MemberPoints(String iD, String pwd, String name, String tel,String address, int memberPoints) 
-//	{
-//		ID = iD;
-//		Pwd = pwd;
-//		Name = name;
-//		Tel = tel;
-//		Address = address;
-//		MemberPoints = memberPoints;
-//	}
-
 	public String getID() {
 		return ID;
 	}

@@ -23,7 +23,13 @@ public class Runme {
 		Wendy.setID_Name_Pwd_Name_Tel_Address_MemberPoints("0003", "0003USER", "Wendy", "0935-123123", "馬公市六合路 300 號",500);
 		System.out.println(" Wendy: " + Wendy.toString());
 		
-		
+		Pet pet1 = new Pet();
+		pet1.setPetID(1001);
+		pet1.setPetName("Fluffy");
+		pet1.setPetGender("female");
+		pet1.setMasterID(Jacky.getID());
+		pet1.setPetbirth(2022,6,15);
+		System.out.println(" Pet1: " + pet1.toString());
 	}
 
 }
